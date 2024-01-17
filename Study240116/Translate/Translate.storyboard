@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vsq-6h-mAw">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="gKH-wO-no0">
+            <objects>
+                <viewController storyboardIdentifier="TranslateViewController" id="vsq-6h-mAw" customClass="TranslateViewController" customModule="Study240116" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="47p-Xk-ATw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JXR-n7-mn5">
+                                <rect key="frame" x="20" y="79" width="353" height="379"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mem-ro-Pru">
+                                <rect key="frame" x="20" y="478" width="353" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="u0P-Jm-8fR"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RI9-3E-vhh">
+                                <rect key="frame" x="20" y="538" width="353" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="Jpa-Yh-9dx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="afP-1R-6x3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mem-ro-Pru" firstAttribute="top" secondItem="JXR-n7-mn5" secondAttribute="bottom" constant="20" id="CWr-KO-PrR"/>
+                            <constraint firstItem="afP-1R-6x3" firstAttribute="trailing" secondItem="JXR-n7-mn5" secondAttribute="trailing" constant="20" id="LVu-Qa-mlN"/>
+                            <constraint firstItem="RI9-3E-vhh" firstAttribute="leading" secondItem="afP-1R-6x3" secondAttribute="leading" constant="20" id="MTm-Am-7Ev"/>
+                            <constraint firstItem="JXR-n7-mn5" firstAttribute="top" secondItem="afP-1R-6x3" secondAttribute="top" constant="20" id="Wnb-Pn-2WL"/>
+                            <constraint firstItem="RI9-3E-vhh" firstAttribute="bottom" secondItem="afP-1R-6x3" secondAttribute="bottom" constant="20" id="bW8-Pq-c7X"/>
+                            <constraint firstItem="afP-1R-6x3" firstAttribute="trailing" secondItem="RI9-3E-vhh" secondAttribute="trailing" constant="20" id="dE6-gS-Sz1"/>
+                            <constraint firstItem="JXR-n7-mn5" firstAttribute="leading" secondItem="afP-1R-6x3" secondAttribute="leading" constant="20" id="emk-A0-MdK"/>
+                            <constraint firstItem="RI9-3E-vhh" firstAttribute="top" secondItem="mem-ro-Pru" secondAttribute="bottom" constant="20" id="nOq-50-l7e"/>
+                            <constraint firstItem="mem-ro-Pru" firstAttribute="leading" secondItem="afP-1R-6x3" secondAttribute="leading" constant="20" id="p2V-Hs-ejV"/>
+                            <constraint firstItem="afP-1R-6x3" firstAttribute="trailing" secondItem="mem-ro-Pru" secondAttribute="trailing" constant="20" id="u1K-Sr-KQZ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="j42-Ma-uKd"/>
+                    <connections>
+                        <outlet property="sourceTextView" destination="JXR-n7-mn5" id="LTa-3h-aDV"/>
+                        <outlet property="targetLabel" destination="RI9-3E-vhh" id="ped-WV-CTb"/>
+                        <outlet property="translateButton" destination="mem-ro-Pru" id="Dto-A5-qlK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cHi-hi-S7T" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1017.5572519083969" y="-354.22535211267609"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
