@@ -26,6 +26,11 @@
 		EC6DF0762B57C70F00F7649A /* Market.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6DF0752B57C70F00F7649A /* Market.storyboard */; };
 		EC6DF0782B57C73100F7649A /* Book.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6DF0772B57C73100F7649A /* Book.storyboard */; };
 		EC6DF07A2B57C75A00F7649A /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6DF0792B57C75A00F7649A /* TranslateViewController.swift */; };
+		EC6DF07D2B57D2B700F7649A /* Language.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6DF07C2B57D2B700F7649A /* Language.storyboard */; };
+		EC6DF07F2B57D2CB00F7649A /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6DF07E2B57D2CB00F7649A /* LanguageViewController.swift */; };
+		EC6DF0812B57D32800F7649A /* TranslateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6DF0802B57D32800F7649A /* TranslateManager.swift */; };
+		EC6DF0842B57D4C400F7649A /* LanguageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6DF0822B57D4C400F7649A /* LanguageTableViewCell.swift */; };
+		EC6DF0852B57D4C400F7649A /* LanguageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6DF0832B57D4C400F7649A /* LanguageTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +54,11 @@
 		EC6DF0752B57C70F00F7649A /* Market.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Market.storyboard; sourceTree = "<group>"; };
 		EC6DF0772B57C73100F7649A /* Book.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Book.storyboard; sourceTree = "<group>"; };
 		EC6DF0792B57C75A00F7649A /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
+		EC6DF07C2B57D2B700F7649A /* Language.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Language.storyboard; sourceTree = "<group>"; };
+		EC6DF07E2B57D2CB00F7649A /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		EC6DF0802B57D32800F7649A /* TranslateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateManager.swift; sourceTree = "<group>"; };
+		EC6DF0822B57D4C400F7649A /* LanguageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableViewCell.swift; sourceTree = "<group>"; };
+		EC6DF0832B57D4C400F7649A /* LanguageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LanguageTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +141,23 @@
 		EC6DF0702B57C5A900F7649A /* Translate */ = {
 			isa = PBXGroup;
 			children = (
+				EC6DF07B2B57D2A500F7649A /* Language */,
 				EC6DF0712B57C6C300F7649A /* Translate.storyboard */,
 				EC6DF0792B57C75A00F7649A /* TranslateViewController.swift */,
+				EC6DF0802B57D32800F7649A /* TranslateManager.swift */,
 			);
 			path = Translate;
+			sourceTree = "<group>";
+		};
+		EC6DF07B2B57D2A500F7649A /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				EC6DF07C2B57D2B700F7649A /* Language.storyboard */,
+				EC6DF07E2B57D2CB00F7649A /* LanguageViewController.swift */,
+				EC6DF0822B57D4C400F7649A /* LanguageTableViewCell.swift */,
+				EC6DF0832B57D4C400F7649A /* LanguageTableViewCell.xib */,
+			);
+			path = Language;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +224,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6DF07D2B57D2B700F7649A /* Language.storyboard in Resources */,
 				EC6DF0762B57C70F00F7649A /* Market.storyboard in Resources */,
 				EC6DF0782B57C73100F7649A /* Book.storyboard in Resources */,
+				EC6DF0852B57D4C400F7649A /* LanguageTableViewCell.xib in Resources */,
 				EC2758692B576CB80078C1AA /* .gitignore in Resources */,
 				EC6DF0742B57C6EE00F7649A /* Lotto.storyboard in Resources */,
 				EC2757F42B5611C40078C1AA /* LaunchScreen.storyboard in Resources */,
@@ -225,9 +250,12 @@
 				EC27586B2B576D370078C1AA /* APIKey.swift in Sources */,
 				EC2758032B56218E0078C1AA /* MarketViewController.swift in Sources */,
 				EC2757E82B5611C20078C1AA /* AppDelegate.swift in Sources */,
+				EC6DF0842B57D4C400F7649A /* LanguageTableViewCell.swift in Sources */,
 				EC2757EA2B5611C20078C1AA /* SceneDelegate.swift in Sources */,
 				EC27586E2B5778980078C1AA /* BookViewController.swift in Sources */,
+				EC6DF07F2B57D2CB00F7649A /* LanguageViewController.swift in Sources */,
 				EC2758072B56577D0078C1AA /* LottoAPIManager.swift in Sources */,
+				EC6DF0812B57D32800F7649A /* TranslateManager.swift in Sources */,
 				EC2758052B564AAC0078C1AA /* MarketTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
