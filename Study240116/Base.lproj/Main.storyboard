@@ -67,11 +67,11 @@
             </objects>
             <point key="canvasLocation" x="1202" y="-919"/>
         </scene>
-        <!--Item-->
+        <!--Translate-->
         <scene sceneID="ioJ-8k-IR0">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6xP-VK-kOv" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="9oT-2g-wlT"/>
+                    <tabBarItem key="tabBarItem" title="Translate" id="9oT-2g-wlT"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UFY-cI-58Y">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -86,11 +86,11 @@
             </objects>
             <point key="canvasLocation" x="541" y="-919"/>
         </scene>
-        <!--Item-->
+        <!--Lotto-->
         <scene sceneID="HLu-RS-IK8">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NfM-md-ck1" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Lki-VM-If0"/>
+                    <tabBarItem key="tabBarItem" title="Lotto" id="Lki-VM-If0"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="u2L-SU-74m">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -105,11 +105,11 @@
             </objects>
             <point key="canvasLocation" x="1202" y="-406"/>
         </scene>
-        <!--Item-->
+        <!--Market-->
         <scene sceneID="8TX-Bw-59o">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1gx-49-Pb7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="7BN-e0-aLd"/>
+                    <tabBarItem key="tabBarItem" title="Market" id="7BN-e0-aLd"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ssT-SQ-Rgr">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -124,11 +124,11 @@
             </objects>
             <point key="canvasLocation" x="1202" y="277"/>
         </scene>
-        <!--Item-->
+        <!--Book-->
         <scene sceneID="Mfa-IX-iuD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g5s-bm-VDp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="znU-7C-0w2"/>
+                    <tabBarItem key="tabBarItem" title="Book" id="znU-7C-0w2"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HG6-cC-E8C">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
